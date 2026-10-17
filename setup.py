@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 __plugin_name__ = 'CodecGate'
 __author__ = 'Reece Rose'
 __author_email__ = 'reecerose18@gmail.com'
-__version__ = '0.2'
+__version__ = '0.2.1'
 __url__ = 'https://github.com/ReeceRose/codec-gate'
 __license__ = 'MIT'
 __description__ = 'Pause h264 downloads for approval; let HEVC/AV1 through.'

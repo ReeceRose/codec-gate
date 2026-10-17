@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Fixed: the Web UI showed "Error loading script ... status: 404" on newer Deluge, because the settings page script was looked up through a temporary file that was deleted straight away.
+
 ## 0.2
 
 - Added an option to auto-allow releases from before a configurable year, read from the name.

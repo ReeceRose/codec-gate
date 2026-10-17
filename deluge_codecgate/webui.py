@@ -5,6 +5,7 @@ from .common import get_resource
 
 class WebUI(WebPluginBase):
     scripts = [get_resource('codecgate.js')]
+    debug_scripts = scripts
 
     def enable(self):
         pass
